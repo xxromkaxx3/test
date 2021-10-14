@@ -1,0 +1,640 @@
+@import '_start';
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.navigation {
+    background: url(../img/bg_2.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 35px 25px 0 25px;
+    &__column {
+        max-width: 680px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #4d4959;
+    }
+    &__logo {
+    }
+}
+.newGeneration {
+        padding: 118px 20px 142px 20px;
+        background: #f7f7f7;
+    &__content {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    &__logo {
+        text-align: center;
+        margin: 0 0 33px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #353738;
+        margin: 0 0 35px;
+        text-align: center;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 34px;
+        font-weight: 400;
+        color: #848789;
+        text-align: center;
+    }
+}
+.vintage {
+    &__column {
+        display: flex;
+    }
+    &__bike {
+        position: relative;
+        flex: 66.6666%;
+    }
+    &__background{
+        height: 100%;
+        background: url(../img/rectangle_1_54.png) no-repeat;
+        background-size: cover;
+    }
+    &__bg{
+    }
+    &__logo{
+        opacity: 0;
+        transition: 0.7s;
+    }
+    &__logo:hover{
+        opacity: 1;
+        
+    }
+    &__icon{
+        margin: -59px 0 0 -56.5px;
+    }
+    &__item {
+        flex: 33.3333%;
+        padding: 70px 0 0 0;
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    &__textBlock{
+        padding: 0 69px 25px 69px;
+    }
+    &__logoItem {
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 25px 0;
+    }
+    &__text {
+    }
+    &__photo2{
+    }
+    &__photo2 img{
+        width: 100%;
+    }
+}
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #353738;
+    text-align: center;
+}
+.text {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #848789;
+    text-align: justify;
+}
+.boriosa {
+    &__column {
+        display: flex;
+    }
+    &__item {
+        flex: 33.3333%;
+        padding: 60px 0 0 0;
+    }
+    &__row {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__textBlock {
+        padding: 0 69px;
+    }
+	&__logoItem {
+        text-align: center;
+        margin: 0 0 30px 0;
+	}
+    &__title {
+        margin: 0 0 26px 0;
+    }
+    &__text {
+        margin:  0 0 26px;
+    }
+    &__subPhoto {
+    }
+    &__subPhoto img {
+        width: 100%;
+    }
+    &__bike {
+        flex: 66.6666%;
+        position: relative;
+    }
+    &__background{
+        height: 100%;
+        background: url(../img/rectangle_1_copy_5_61.png) no-repeat;
+        background-size: cover;
+    }
+    &__logo {
+        height: 100%;
+        opacity: 0;
+        transition: 0.7s;
+    }
+    &__logo:hover{
+        opacity: 1;
+    }
+    &__bg{
+    }
+    &__icon{
+        margin: -76px 0 0 -88.5px;
+    }
+}
+.retro {
+    &__column {
+        display: flex;
+    }
+    &__frame {
+        flex: 33.3333%;
+        position: relative;
+    }
+    &__item {
+        flex: 33.3333%;
+    }
+	&__row {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+	}
+    &__textBlock {
+        padding: 58px 69px 0 69px;
+    }
+    &__logo {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    &__title {
+        margin: 0 0 25px 0;
+    }
+    &__text {
+        margin: 0 0 25px 0;
+    }
+    &__subPhoto img {
+        width: 100%;
+    }
+    &__redBike {
+        flex: 33.3333%;
+    }
+}
+.frame {
+    &__background{
+        height: 100%;
+        background: url(../img/rectangle_1_copy_6_63.png) no-repeat;
+        background-size: cover;
+    }
+    &__icon {
+        margin: -33.5px 0 0 -104px;
+    }
+    &__logo{
+        opacity: 0;
+        transition: 0.7s;
+    }
+    &__logo:hover{
+        opacity: 1;
+    }
+}
+.redBike {
+    height: 100%;
+    &__photo{
+        height: 100%;
+        background: url(../img/rectangle_1_copy_6_64.png) no-repeat;
+        background-size: cover;
+    }
+}
+.newYork {
+    max-width: 1090px;
+    padding: 125px 0 0 0;
+    margin: 0 auto;
+    &__content {
+        margin: 0 25px;
+    }
+    &__icon {
+        text-align: center;
+        margin: 0 0 37px;
+    }
+    &__tiyle {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #353738;
+        text-align: center;
+        margin: 0 0 26px 0;
+    }
+    &__tiyle span{
+        font-weight: 300;
+        color: #848789;
+    }
+    &__text {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 400;
+        font-style: italic;
+        color: #848789;
+        text-align: center;
+        margin: 0 0 103px 0;
+    }
+	&__column {
+        max-width: 53px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+	}
+    &__button {
+        width: 11px;
+        height: 11px;
+        border: solid 1px #a9afb3;
+        border-radius: 50%;
+        margin: 0 0 68px 0;
+
+        }
+    &__button:active{
+        background: #a9afb3;
+    }
+.shopNow {
+		&__column {
+		}
+		&__brooks {
+		}
+		&__below {
+		}
+		&__frame {
+		}
+		&__left {
+		}
+		&__right {
+		}
+		&__store {
+		}
+}
+.brooks {
+		&__above {
+		}
+		&__one {
+		}
+		&__many {
+		}
+}
+.store {
+		&__above {
+		}
+		&__background {
+		}
+		&__logo {
+		}
+		&__icon {
+		}
+		&__text {
+		}
+		&__below {
+		}
+		&__left {
+		}
+		&__right {
+		}
+}
+}
+.shopNow {
+    &__column {
+        overflow: hidden;
+        display: flex;
+    }
+    &__brooks {
+        flex: 33.3333%;
+    }
+    &__frame {
+        flex: 33.3333%;
+        display: flex;
+    }
+    &__left{
+        flex: 50%;
+    }
+    &__left img{
+        width: 100%;
+        height: 100%;
+    }
+    &__right{
+        flex: 50%;
+    }
+    &__right img{
+        width: 100%;
+        height: 100%;
+    }
+    &__store {
+        flex: 33.3333%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.brooks {
+    &__above {
+        display: flex;
+    }
+    &__one {
+        flex: 50%;
+    }
+    &__one img{
+        width: 100%;
+    }
+    
+    &__many {
+        flex: 50%;
+    }
+    &__many img{
+        width: 100%;
+    }
+    &__below img {
+        width: 100%;
+    }
+}
+.store {
+    &__above {
+        position: relative;
+        flex: 50%;
+        height: 100%;
+    }
+    &__background {
+        background: url(../img/rectangle_3_copy_4_141.png) no-repeat;
+        background-size: 100%;
+        height: 100%;
+    }
+    &__logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -22.5px 0 0 -50px;
+        z-index: 2;
+    }
+    &__greenWindow{
+        opacity: 0;
+        transition: 0.7s;
+    }
+    &__greenWindow:hover{
+        opacity: 1;
+    }
+    &__icon {
+        margin: 0 0 13px 0;
+        text-align: center;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff;
+
+    }
+    &__below {
+        display: flex;
+        flex:50%;
+    }
+    &__left {
+        flex: 50%;
+    }
+    &__left img{
+        width: 100%;
+    }
+    &__right {
+        flex: 50%;
+    }
+    &__right img{
+        width: 100%;
+    }
+}
+.button {
+    
+	&__content {
+        background: #282f35;
+        padding: 75px 0;
+	}
+    &__discover{
+        margin: 0 auto;
+        width: 300px;
+        height: 50px;
+        border: 1px solid rgba(255,255,255,0.49);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+    &__discover:hover{
+        box-shadow: 0 5px 10px #13171a;
+    }
+    &__discover:active{
+        box-shadow: inset 0 5px 10px #13171a;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff;
+
+    }
+}
+.email {
+    &__logo {
+        text-align: center;
+        margin: 109px 0 39px 0;
+    }
+    &__text {
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+        color: #848789;
+        text-align: center;
+        margin: 0 0 35px 0;
+    }
+	&__column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+    &__input {
+    }
+    &__shape{
+        margin: 0 0 111px 0;
+    }
+    &__shape form{
+        display: flex;
+    }
+    &__write{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        color: #929292;
+        width: 400px;
+        height: 69px;
+        background-color: #ffffff;
+        border: 1px solid #d3d7d9;
+        padding: 28px 28px 24px 28px;
+        margin: 0 8px 0 0;
+    }
+    &__go {
+        width: 126px;
+        height: 69px;
+        background-color: #64c29e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        transition: 0.5s;
+    }
+    &__go:hover{
+        background-color: rgb(92, 192, 199);
+        box-shadow: 0 0 20px rgb(92, 192, 199);
+    }
+    &__go:active{
+        box-shadow:inset 0 0 20px rgb(66, 136, 141);
+    }
+}
+.footer {
+    padding: 99px 25px 103px 25px;
+    background: #f7f7f7;
+    &__column {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__newYork {
+        font-size: 13.9px;
+        font-weight: 400;
+        font-style: italic;
+        color: #848789;
+        line-height: 17px;
+    }
+    &__newYork p:first-child {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__messenger {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 135px;
+    }
+    &__twitter {
+    }
+    &__faceBook {
+    }
+    &__pinterest {
+    }
+	&__yebo {
+        display: flex;
+        align-items: center;
+	}
+	&__text {
+        font-size: 13.9px;
+        font-weight: 400;
+        font-style: italic;
+        color: #848789;
+        margin: 0 9px 0 0;
+	}
+	&__icon {
+	}
+}
+.content {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+@media(max-width: 1100px){
+    body{
+    }
+    .vintage{
+        &__column {
+            display: flex;
+            flex-direction: column;
+        }
+        &__bike {
+            height: 100%;
+        }
+        &__logo {
+            height: 100%;
+            padding: 0 0 70% 0;
+        }
+        &__bg{
+        }
+        &__item {
+            padding: 30px 0 0 0;
+        }
+    }
+    .boriosa {
+        &__column {
+            flex-direction: column;
+        }
+        &__logo {
+            padding: 0 0 50% 0;
+        }
+    }
+    .retro {
+        &__column {
+            flex-direction: column;
+        }
+    }
+    .frame {
+        &__logo{
+            padding: 0 0 50% 0;
+        }
+    }
+    .redBike {
+        &__photo{
+            padding: 0 0 50% 0;
+        }
+    }
+}
+.lol{
+    background: #646464;
+    height: 2000px;
+}

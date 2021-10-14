@@ -1,0 +1,862 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.navigation {
+  background: url(../img/bg_2.png) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 35px 25px 0 25px;
+}
+
+.navigation__column {
+  max-width: 680px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation__item {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #4d4959;
+}
+
+.newGeneration {
+  padding: 118px 20px 142px 20px;
+  background: #f7f7f7;
+}
+
+.newGeneration__content {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.newGeneration__logo {
+  text-align: center;
+  margin: 0 0 33px;
+}
+
+.newGeneration__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  margin: 0 0 35px;
+  text-align: center;
+}
+
+.newGeneration__text {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #848789;
+  text-align: center;
+}
+
+.vintage__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vintage__bike {
+  position: relative;
+  -webkit-box-flex: 66.6666%;
+      -ms-flex: 66.6666%;
+          flex: 66.6666%;
+}
+
+.vintage__background {
+  height: 100%;
+  background: url(../img/rectangle_1_54.png) no-repeat;
+  background-size: cover;
+}
+
+.vintage__logo {
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.vintage__logo:hover {
+  opacity: 1;
+}
+
+.vintage__icon {
+  margin: -59px 0 0 -56.5px;
+}
+
+.vintage__item {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+  padding: 70px 0 0 0;
+}
+
+.vintage__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.vintage__textBlock {
+  padding: 0 69px 25px 69px;
+}
+
+.vintage__logoItem {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.vintage__title {
+  margin: 0 0 25px 0;
+}
+
+.vintage__photo2 img {
+  width: 100%;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #848789;
+  text-align: justify;
+}
+
+.boriosa__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boriosa__item {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+  padding: 60px 0 0 0;
+}
+
+.boriosa__row {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.boriosa__textBlock {
+  padding: 0 69px;
+}
+
+.boriosa__logoItem {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.boriosa__title {
+  margin: 0 0 26px 0;
+}
+
+.boriosa__text {
+  margin: 0 0 26px;
+}
+
+.boriosa__subPhoto img {
+  width: 100%;
+}
+
+.boriosa__bike {
+  -webkit-box-flex: 66.6666%;
+      -ms-flex: 66.6666%;
+          flex: 66.6666%;
+  position: relative;
+}
+
+.boriosa__background {
+  height: 100%;
+  background: url(../img/rectangle_1_copy_5_61.png) no-repeat;
+  background-size: cover;
+}
+
+.boriosa__logo {
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.boriosa__logo:hover {
+  opacity: 1;
+}
+
+.boriosa__icon {
+  margin: -76px 0 0 -88.5px;
+}
+
+.retro__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.retro__frame {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+  position: relative;
+}
+
+.retro__item {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+}
+
+.retro__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.retro__textBlock {
+  padding: 58px 69px 0 69px;
+}
+
+.retro__logo {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.retro__title {
+  margin: 0 0 25px 0;
+}
+
+.retro__text {
+  margin: 0 0 25px 0;
+}
+
+.retro__subPhoto img {
+  width: 100%;
+}
+
+.retro__redBike {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+}
+
+.frame__background {
+  height: 100%;
+  background: url(../img/rectangle_1_copy_6_63.png) no-repeat;
+  background-size: cover;
+}
+
+.frame__icon {
+  margin: -33.5px 0 0 -104px;
+}
+
+.frame__logo {
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.frame__logo:hover {
+  opacity: 1;
+}
+
+.redBike {
+  height: 100%;
+}
+
+.redBike__photo {
+  height: 100%;
+  background: url(../img/rectangle_1_copy_6_64.png) no-repeat;
+  background-size: cover;
+}
+
+.newYork {
+  max-width: 1090px;
+  padding: 125px 0 0 0;
+  margin: 0 auto;
+}
+
+.newYork__content {
+  margin: 0 25px;
+}
+
+.newYork__icon {
+  text-align: center;
+  margin: 0 0 37px;
+}
+
+.newYork__tiyle {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #353738;
+  text-align: center;
+  margin: 0 0 26px 0;
+}
+
+.newYork__tiyle span {
+  font-weight: 300;
+  color: #848789;
+}
+
+.newYork__text {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+  text-align: center;
+  margin: 0 0 103px 0;
+}
+
+.newYork__column {
+  max-width: 53px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newYork__button {
+  width: 11px;
+  height: 11px;
+  border: solid 1px #a9afb3;
+  border-radius: 50%;
+  margin: 0 0 68px 0;
+}
+
+.newYork__button:active {
+  background: #a9afb3;
+}
+
+.shopNow__column {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shopNow__brooks {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+}
+
+.shopNow__frame {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shopNow__left {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.shopNow__left img {
+  width: 100%;
+  height: 100%;
+}
+
+.shopNow__right {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.shopNow__right img {
+  width: 100%;
+  height: 100%;
+}
+
+.shopNow__store {
+  -webkit-box-flex: 33.3333%;
+      -ms-flex: 33.3333%;
+          flex: 33.3333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.brooks__above {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brooks__one {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.brooks__one img {
+  width: 100%;
+}
+
+.brooks__many {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.brooks__many img {
+  width: 100%;
+}
+
+.brooks__below img {
+  width: 100%;
+}
+
+.store__above {
+  position: relative;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  height: 100%;
+}
+
+.store__background {
+  background: url(../img/rectangle_3_copy_4_141.png) no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+
+.store__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -22.5px 0 0 -50px;
+  z-index: 2;
+}
+
+.store__greenWindow {
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.store__greenWindow:hover {
+  opacity: 1;
+}
+
+.store__icon {
+  margin: 0 0 13px 0;
+  text-align: center;
+}
+
+.store__text {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.store__below {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.store__left {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.store__left img {
+  width: 100%;
+}
+
+.store__right {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.store__right img {
+  width: 100%;
+}
+
+.button__content {
+  background: #282f35;
+  padding: 75px 0;
+}
+
+.button__discover {
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.49);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button__discover:hover {
+  -webkit-box-shadow: 0 5px 10px #13171a;
+          box-shadow: 0 5px 10px #13171a;
+}
+
+.button__discover:active {
+  -webkit-box-shadow: inset 0 5px 10px #13171a;
+          box-shadow: inset 0 5px 10px #13171a;
+}
+
+.button__text {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.email__logo {
+  text-align: center;
+  margin: 109px 0 39px 0;
+}
+
+.email__text {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+  text-align: center;
+  margin: 0 0 35px 0;
+}
+
+.email__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.email__shape {
+  margin: 0 0 111px 0;
+}
+
+.email__shape form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.email__write {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  color: #929292;
+  width: 400px;
+  height: 69px;
+  background-color: #ffffff;
+  border: 1px solid #d3d7d9;
+  padding: 28px 28px 24px 28px;
+  margin: 0 8px 0 0;
+}
+
+.email__go {
+  width: 126px;
+  height: 69px;
+  background-color: #64c29e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.email__go:hover {
+  background-color: #5cc0c7;
+  -webkit-box-shadow: 0 0 20px #5cc0c7;
+          box-shadow: 0 0 20px #5cc0c7;
+}
+
+.email__go:active {
+  -webkit-box-shadow: inset 0 0 20px #42888d;
+          box-shadow: inset 0 0 20px #42888d;
+}
+
+.footer {
+  padding: 99px 25px 103px 25px;
+  background: #f7f7f7;
+}
+
+.footer__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__newYork {
+  font-size: 13.9px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+  line-height: 17px;
+}
+
+.footer__newYork p:first-child {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer__messenger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 135px;
+}
+
+.footer__yebo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__text {
+  font-size: 13.9px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+  margin: 0 9px 0 0;
+}
+
+.content {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+}
+
+@media (max-width: 1100px) {
+  .vintage__column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .vintage__bike {
+    height: 100%;
+  }
+  .vintage__logo {
+    height: 100%;
+    padding: 0 0 70% 0;
+  }
+  .vintage__item {
+    padding: 30px 0 0 0;
+  }
+  .boriosa__column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .boriosa__logo {
+    padding: 0 0 50% 0;
+  }
+  .retro__column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .frame__logo {
+    padding: 0 0 50% 0;
+  }
+  .redBike__photo {
+    padding: 0 0 50% 0;
+  }
+}
+
+.lol {
+  background: #646464;
+  height: 2000px;
+}
